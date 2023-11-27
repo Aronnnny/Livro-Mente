@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NextDirective } from './next.directive';
 import { PrevDirective } from './prev.directive';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NextDirective,
-    PrevDirective
+    PrevDirective,
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
